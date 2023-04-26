@@ -38,12 +38,14 @@ const Modal = () => {
         {isOpenB && (
             <ModalBackground>
               <ModalView onClick={(e) => e.stopPropagation()}>
-                <ModalExitBtn onClick={closeModalHandlerB} smallR>닫기</ModalExitBtn>
-                <ModalExitBtn small>확인</ModalExitBtn>
                 <div className='desc'>
                   닫기 버튼 2개가 있고, 외부 영역을 눌러도 모달이 닫히지 않아요.
                 </div>
-              </ModalView>
+                <TwoBtn>
+                <ModalExitBtn onClick={closeModalHandlerB} smallR>닫기</ModalExitBtn>
+                <ModalExitBtn small>확인</ModalExitBtn>
+                </TwoBtn>
+                </ModalView>
             </ModalBackground>
           )}
         </div>
@@ -70,6 +72,15 @@ export default Modal
 const ModalBox = styled.div`
     display: flex;
     gap: 20px;
+`
+const TwoBtn = styled.div`
+    position: absolute;
+    bottom: 350px;
+    right: 300px;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    line-height: 40px
 `
 
 const ModalBackground = styled.div`
