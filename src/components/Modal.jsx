@@ -74,13 +74,12 @@ const ModalBox = styled.div`
     gap: 20px;
 `
 const TwoBtn = styled.div`
-    position: absolute;
-    bottom: 350px;
-    right: 300px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    margin-top:35px;
+    margin-left: 150px;
     text-align: center;
-    line-height: 40px
+    line-height: 40px;
 `
 
 const ModalBackground = styled.div`

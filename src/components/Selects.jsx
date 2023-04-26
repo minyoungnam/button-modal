@@ -43,7 +43,6 @@ const FullBox = styled.div`
   border: 3px solid rgb(221, 221, 221);
   height: 200px;
   overflow: hidden;
-  position: relative;
   margin-top: 50px;
 `
 const SelectWrapper = styled.div`
@@ -51,5 +50,5 @@ const SelectWrapper = styled.div`
   //ixed 속성값의 배치 기준이 자신이나 부모 요소가 아닌 뷰포트(viewport), 즉 브라우저 전체화면
   position: fixed; 
   //position 속성을 지정하고 z-index 속성(하나의 정수 값을 가진다)을 지정
-  z-index: 999;
+  // z-index: 999;
 `;
