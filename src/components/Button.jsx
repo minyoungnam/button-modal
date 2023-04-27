@@ -56,7 +56,10 @@ const PrimaryButton = styled.button`
         background-color: rgb(85, 239, 196);
         height: 40px;
         width: 100px; 
-    `}    
+    `}
+    &:hover {
+    opacity: 0.6;
+    };    
 `
 const NagativeButton = styled.button`
     ${buttonStyles}
@@ -78,4 +81,7 @@ const NagativeButton = styled.button`
         height: 40px;
         width: 100px; 
     `}
+    &:hover {
+    opacity: 0.6;
+    };
 `
