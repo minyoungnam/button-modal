@@ -27,7 +27,7 @@
 ## components
 
 -Button.jsx(버튼6개)
--Input.jsx(
+-Input.jsx
 -Modal.jsx
 -Selects.jsx
 
