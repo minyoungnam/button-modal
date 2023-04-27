@@ -1,4 +1,4 @@
-## button-modal
+# button-modal
 ### Modal
 
 - 모달 2개를 구현합니다.
@@ -24,10 +24,13 @@
     - select를 클릭했을 때, option 들이 나오고 해당 option을 클릭하면 select의 값이 변경됩니다.
     - select를 클릭했을 때 부모 요소에 의해서 가려지지 않도록 구현합니다. 부모 요소에 `overflow: hidden`을 적용하면 자식 컴포넌트가 부모 컴포넌트를 넘어갔을 때 가려지게 됩니다. 부모 컴포넌트에 `hidden` 속성이 있다고 하더라도 select는 가려지지 않아야 합니다.
 
-# components
+## components
+
 -Button.jsx(버튼6개)
 -Input.jsx(
 -Modal.jsx
 -Selects.jsx
-# styles
+
+## styles
+
 -ButtonStyles.js
